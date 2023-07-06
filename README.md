@@ -5,6 +5,12 @@
  Biorę udział w projekcie, aby mieć wsparcie w stawianiu swoich pierwszych kroków podczas nauki automatyzacji. 
 
 ## Zadanie 2: selectory.
+### Scouts Panel - Strona logowania:
+- `//input[@id='login']`
+- `//input[@id='password']`
+- `//span[text()='Zaloguj']`
+
+
 ### Scouts Panel - Strona główna:
 Tekst "Ilość graczy"
 - `//div[text()='Ilość graczy']`
