@@ -1,26 +1,26 @@
 # Challenge_portfolio_sylwii
  
-*Zadanie 1: konfiguracja oprogramowania.*
-- **Podzadanie 1**: Dlaczego zdecydowałem się wziąć udział w wyzwaniu Dare IT Challenge?"
-  Biorę udział w projekcie, aby mieć wsparcie w stawianiu swoich pierwszych kroków podczas nauki automatyzacji. 
+## Zadanie 1: konfiguracja oprogramowania.
+### Podzadanie 1: Dlaczego zdecydowałem się wziąć udział w wyzwaniu Dare IT Challenge?"
+ Biorę udział w projekcie, aby mieć wsparcie w stawianiu swoich pierwszych kroków podczas nauki automatyzacji. 
 
-*Zadanie 2: selectory.*
-- **Scouts Panel** Strona główna:
-  - Tekst "Ilość graczy"
-//div[text()='Ilość graczy']
-/html/body/div/div/main/div[2]/div/div/div
+## Zadanie 2: selectory.
+### Scouts Panel - Strona główna:
+Tekst "Ilość graczy"
+- `//div[text()='Ilość graczy']`
+- `/html/body/div/div/main/div[2]/div/div/div`
 
-- Logo
-//div[@title='Logo Scouts Panel']
-//div[@class='MuiCardMedia-root jss130']
-//div[contains(@style,'/static/images/logo_platforma.png')]
+Logo
+- `//div[@title='Logo Scouts Panel']`
+- `//div[@class='MuiCardMedia-root jss130']`
+- `//div[contains(@style,'/static/images/logo_platforma.png')]`
 
 Link
-//a[starts-with(@href,'https://app.slack.com/client')]
-/html/body/div/div/main/div[3]/div/div/div[3]/a
-
-Zakładka Gracze
-#__next > div.jss10 > div > div > div > ul:nth-child(2) > div:nth-child(2)
+- `//a[starts-with(@href,'https://app.slack.com/client')]`
+- `/html/body/div/div/main/div[3]/div/div/div[3]/a`
 
 
-- **Scouts Panel** Strona logowania: 
+
+
+
+
